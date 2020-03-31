@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    client:
+      clientId: 
+      clientSecret: 
+      accessTokenUri: 
+      userAuthorizationUri: 
+    resource:
+      userInfoUri: 
+
+spring:
+  main:
+    allow-bean-definition-overriding: true

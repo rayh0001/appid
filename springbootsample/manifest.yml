@@ -1,0 +1,11 @@
+applications:
+- buildpack: java_buildpack
+  domain: null
+  host: null
+  instances: 1
+  memory: 1024M
+  name: springbootsample
+  path: ./target/springbootsample-0.0.1-SNAPSHOT.jar
+  routes:
+  - route: springbootsample.us-south.cf.appdomain.cloud
+  timeout: 180
